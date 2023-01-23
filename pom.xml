@@ -10,6 +10,8 @@
     <modules>
         <module>eureka-server</module>
         <module>clients</module>
+        <module>notification</module>
+        <module>auth</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
 
