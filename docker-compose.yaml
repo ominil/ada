@@ -1,3 +1,5 @@
+version: '3'
+
 services:
   zipkin:
     image: openzipkin/zipkin
@@ -6,6 +8,78 @@ services:
       - "9411:9411"
     networks:
       - spring
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    networks:
+      - spring
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: wurstmeister/kafka
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    networks:
+      - spring
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_DOCKER_INTERNAL:PLAINTEXT,LISTENER_DOCKER_EXTERNAL:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: LISTENER_DOCKER_INTERNAL://kafka:19092,LISTENER_DOCKER_EXTERNAL://localhost:9092
+      KAFKA_LISTENERS: LISTENER_DOCKER_INTERNAL://kafka:19092,LISTENER_DOCKER_EXTERNAL://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: LISTENER_DOCKER_EXTERNAL
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_MESSAGE_MAX_BYTES: 2000000
+
+
+  eureka-server:
+    image: adaswissdocker/eureka-server:latest
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+    depends_on:
+      - zipkin
+
+# ADA SERVICES
+
+  auth:
+    image: adaswissdocker/auth:latest
+    container_name: auth
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+    depends_on:
+      - zipkin
+      - eureka-server
+      - kafka
+
+  notification:
+    image: adaswissdocker/notification:latest
+    container_name: notification
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+    depends_on:
+      - zipkin
+      - eureka-server
+      - kafka
+
 
 
 networks:

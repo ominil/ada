@@ -1,11 +1,10 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   application:
-    name: auth
+    name: notification
   kafka:
-    bootstrap-servers: localhost:9092
-
+    bootstrap-servers: kafka:19092
 
 eureka:
   client:
@@ -13,7 +12,8 @@ eureka:
     fetch-registry: true
     enabled: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
+
 
 management:
   tracing:
@@ -21,9 +21,12 @@ management:
       probability: 1.0
   zipkin:
     tracing:
-      endpoint: http://localhost:9411/api/v2/spans
-      
+      endpoint: http://zipkin:9411/api/v2/spans
+
 
 logging:
   pattern:
     level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
+
+
+

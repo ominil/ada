@@ -1,27 +1,30 @@
 package com.ominil.auth;
 
 
-import com.ominil.clients.notification.NotificationClient;
+import com.ominil.auth.entity.UserRegistration;
 import com.ominil.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
 
 @Service
 @AllArgsConstructor
 public class AuthService {
 
-    private final NotificationClient notificationClient;
+    private final KafkaTemplate<String, NotificationRequest> kafkaTemplate;
 
-
-    public void register() {
+    public void register(UserRegistration userRegistration) {
         // todo register user
 
         NotificationRequest notificationRequest = NotificationRequest.builder()
-                .message("Register user")
+                .username(userRegistration.username())
+                .message("You succesfully created the account")
+                .createdAt(LocalDateTime.now())
                 .build();
 
-        // todo make async request with kafka client
-        notificationClient.sendNotification(notificationRequest);
+        kafkaTemplate.send("auth-notification", notificationRequest);
 
 
     }

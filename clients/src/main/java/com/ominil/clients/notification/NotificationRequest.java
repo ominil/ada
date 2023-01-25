@@ -1,10 +1,11 @@
 package com.ominil.clients.notification;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
+import java.time.LocalDateTime;
 
 @Builder
 public record NotificationRequest (
-        Long userID,
-        String message
+        String username,
+        String message,
+        LocalDateTime createdAt
 ) {}
