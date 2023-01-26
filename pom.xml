@@ -16,6 +16,7 @@
         <module>clients</module>
         <module>notification</module>
         <module>auth</module>
+        <module>apigw</module>
     </modules>
 
     <properties>

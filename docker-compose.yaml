@@ -52,6 +52,19 @@ services:
 
 # ADA SERVICES
 
+  apigw:
+    image: adaswissdocker/apigw:latest
+    container_name: apigw
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+    depends_on:
+      - zipkin
+      - eureka-server
+
   auth:
     image: adaswissdocker/auth:latest
     container_name: auth
