@@ -1,12 +1,39 @@
-# ada
+# ADA
+___
+
+[//]: # ( TODO Insert Here description)
+
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Dependencies](#dependencies)
+- [Building the project](#building-the-project)
+- [Modules](#modules)
+- [Application Diagram](#application-diagram)
+- [License](#license)
 
 
 
-## Services on local dev
+## Requirements
+
+## Dependencies
+
+## Building the project
+
+## Modules
+
+### API Gateway
+
+### Clients
 
 ### Eureka Server
-[http://localhost:8761/](http://localhost:8761/)
 
-### Zipkin
-[http://localhost:9411/zipkin](http://localhost:9411/zipkin)
+### Auth
+
+### Notification
+
+## Application Diagram
+
+## License
 
