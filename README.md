@@ -72,6 +72,12 @@ has its own README file with all the dependencies that it needs.
 
 [//]: # ( TODO Create Diagram)
 
+### System Context
+
+![](diagrams/output/AdA System Context.svg)
+
+### Container Diagram
+
 ## License
 
 Released under the Apache License 2.0. See the [LICENSE](LICENSE) file.

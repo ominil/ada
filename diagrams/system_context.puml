@@ -1,0 +1,42 @@
+@startuml AdA System Context
+
+footer AdA System Context
+scale max 1024 width
+skinparam linetype polyline
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Context Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+
+' Container Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+' Component Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+left to right direction
+'LAYOUT_WITH_LEGEND()
+
+Person(ada, "AdA", "Optional Descritption")
+
+
+System(picasso, "Picasso", "Allow user to create and view infomormation about lectures and events")
+System(entry, "Check In", "Optional Descritption")
+System(lecture, "Events", "Allows users to create lectures and handle the materials")
+System(warehouse, "Warehouse", "Store all information of materials that is used during lectures and events")
+
+
+System_Ext(firebase, "FireBase Messaging", "Optional Descritption")
+
+
+Rel(ada, entry, "Check-in to register for service")
+Rel(ada, lecture, "Create events")
+
+Rel(firebase, ada, "Send notification to")
+Rel(lecture, picasso, "Save information of event")
+Rel(picasso, firebase, "Send information about incoming events")
+Rel(lecture, warehouse, "Gets information of the material that is available")
+
+
+@enduml
