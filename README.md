@@ -74,7 +74,8 @@ has its own README file with all the dependencies that it needs.
 
 ### System Context
 
-![](diagrams/output/AdA System Context.svg)
+[//]: # (![System Context]&#40;diagrams/output/AdA System Context.svg&#41;)
+<img src="diagrams/output/AdA System Context.svg"/>
 
 ### Container Diagram
 
