@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="504.6423px" preserveAspectRatio="none" style="width:1024px;height:504px;background:#FFFFFF;" version="1.1" viewBox="0 0 1024 504" width="1024.5274px" zoomAndPan="magnify"><defs/><g><!--MD5=[bda1a16375a29484a87084063898b60a]
+cluster internet--><g id="cluster_internet"><rect height="486.6777" rx="1.361" ry="1.361" style="stroke:#444444;stroke-width:0.5443822371372087;fill:none;stroke-dasharray:7.0,7.0;" width="874.8223" x="145.6222" y="3.8107"/><text fill="#444444" font-family="sans-serif" font-size="0" font-style="italic" lengthAdjust="spacing" textLength="0" x="583.0334" y="4.8994">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="36.4736" x="564.7966" y="19.6544">Internet</text><text fill="#444444" font-family="sans-serif" font-size="6.5326" font-weight="bold" lengthAdjust="spacing" textLength="37.086" x="564.4904" y="29.1898">[Container]</text></g><!--MD5=[22d7e0de192526f01f4080bfc5bfca78]
+cluster dmz--><g id="cluster_dmz"><rect height="432.7839" rx="1.361" ry="1.361" style="stroke:#444444;stroke-width:0.5443822371372087;fill:none;stroke-dasharray:7.0,7.0;" width="678.3003" x="329.0791" y="44.6393"/><text fill="#444444" font-family="sans-serif" font-size="0" font-style="italic" lengthAdjust="spacing" textLength="0" x="668.2292" y="45.7281">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="20.9587" x="657.7498" y="60.4831">DMZ</text><text fill="#444444" font-family="sans-serif" font-size="6.5326" font-weight="bold" lengthAdjust="spacing" textLength="37.086" x="649.6862" y="70.0185">[Container]</text></g><!--MD5=[ae041c556d7327fd06a2cd6b31cf2b6c]
+cluster p_net--><g id="cluster_p_net"><rect height="378.89" rx="1.361" ry="1.361" style="stroke:#444444;stroke-width:0.5443822371372087;fill:none;stroke-dasharray:7.0,7.0;" width="530.2283" x="464.0859" y="85.468"/><text fill="#444444" font-family="sans-serif" font-size="0" font-style="italic" lengthAdjust="spacing" textLength="0" x="729.2" y="86.5568">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="71.3141" x="693.543" y="101.3117">Private Network</text><text fill="#444444" font-family="sans-serif" font-size="6.5326" font-weight="bold" lengthAdjust="spacing" textLength="37.086" x="710.657" y="110.8472">[Container]</text></g><!--MD5=[4b09cb1630b8b87d807f4dda9611c9d3]
+cluster ada--><g id="cluster_ada"><rect height="231.3625" rx="1.361" ry="1.361" style="stroke:#444444;stroke-width:0.5443822371372087;fill:none;stroke-dasharray:7.0,7.0;" width="495.3878" x="481.5061" y="215.5754"/><text fill="#444444" font-family="sans-serif" font-size="0" font-style="italic" lengthAdjust="spacing" textLength="0" x="729.2" y="216.6641">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="55.527" x="701.4365" y="231.4191">AdA Backend</text><text fill="#444444" font-family="sans-serif" font-size="6.5326" font-weight="bold" lengthAdjust="spacing" textLength="37.086" x="710.657" y="240.9545">[Container]</text></g><!--MD5=[58e3e00994ded0c8e2770109ebecb695]
+entity singlepageapp--><g id="elem_singlepageapp"><rect fill="#438DD5" height="49.4432" rx="1.361" ry="1.361" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;" width="114.8647" x="154.6046" y="117.3144"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="194.8888" y="129.7416">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="103.977" x="160.0484" y="140.9668">Single-Page Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="77.8467" x="172.297" y="150.5022">[Provides all the of the AdA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="102.8882" x="160.5928" y="159.3997">functionality through web browser]</text></g><!--MD5=[ccca32b12fb5fa68a3a37ddbcc032510]
+entity apigw--><g id="elem_apigw"><rect fill="#438DD5" height="71.6864" rx="1.361" ry="1.361" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;" width="117.0422" x="338.0614" y="106.1545"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="379.4344" y="118.5817">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="53.8938" x="369.6355" y="129.8069">Api Gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="40.8287" x="376.1681" y="139.3424">[Spring Cloud]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="395.4937" y="149.4036"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="89.2787" x="351.9431" y="159.7839">Entry points of all clients.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="106.1545" x="343.5052" y="170.1641">Handles and balance requests</text></g><!--MD5=[7c0f197cad09c4d86c8b8989e1030b9e]
+entity docker--><g id="elem_docker"><rect fill="#B3B3B3" height="31.6483" rx="1.361" ry="1.361" style="stroke:#A6A6A6;stroke-width:0.27219111856860434;" width="112.9593" x="665.2351" y="126.2967"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="60.9708" x="691.2293" y="138.7239">«external_container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="102.0717" x="670.6789" y="149.9491">Private Docker Registry</text></g><!--MD5=[e6a31f7350fbba75fdb1781d8bfd54e4]
+entity eureka--><g id="elem_eureka"><rect fill="#B3B3B3" height="40.5457" rx="1.361" ry="1.361" style="stroke:#A6A6A6;stroke-width:0.27219111856860434;" width="74.8526" x="783.366" y="121.9416"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="60.9708" x="790.3069" y="134.3688">«external_container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="63.9649" x="788.8099" y="145.594">Eureka Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="52.8051" x="794.3898" y="155.1295">[Discovery Service]</text></g><!--MD5=[6edbe79e8b95e54f2791ceca50806cc1]
+entity zipkin--><g id="elem_zipkin"><rect fill="#B3B3B3" height="40.5457" rx="1.361" ry="1.361" style="stroke:#A6A6A6;stroke-width:0.27219111856860434;" width="71.8585" x="868.5619" y="121.9416"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="60.9708" x="874.0057" y="134.3688">«external_container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="28.3079" x="890.3371" y="145.594">Zipkin</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="58.7933" x="875.0944" y="155.1295">[Distributed Tracing]</text></g><!--MD5=[e29493a8775effcafa538aa0485107d1]
+entity auth--><g id="elem_auth"><rect fill="#438DD5" height="71.6864" rx="1.361" ry="1.361" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;" width="112.6871" x="494.8435" y="256.404"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="534.039" y="268.8312">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="93.6337" x="504.3701" y="280.0564">Authorization Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="37.5624" x="532.4058" y="289.5919">[Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="550.0983" y="299.6531"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="97.4444" x="502.4648" y="310.0334">Manage the authentication</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="94.1781" x="504.098" y="320.4136">and authorization of users</text></g><!--MD5=[ba68bcf2e9b9c07ec6bac38e2ac6c312]
+entity db_auth--><g id="elem_db_auth"><path d="M504.6423,362.5586 C504.6423,357.1147 551.187,357.1147 551.187,357.1147 C551.187,357.1147 597.7317,357.1147 597.7317,362.5586 L597.7317,428.2568 C597.7317,433.7006 551.187,433.7006 551.187,433.7006 C551.187,433.7006 504.6423,433.7006 504.6423,428.2568 L504.6423,362.5586 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;"/><path d="M504.6423,362.5586 C504.6423,368.0024 551.187,368.0024 551.187,368.0024 C551.187,368.0024 597.7317,368.0024 597.7317,362.5586 " fill="none" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="534.039" y="377.1633">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="41.3731" x="530.5005" y="388.3885">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="41.3731" x="530.5005" y="397.924">[Postgres SQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="550.0983" y="407.9852"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="77.8467" x="512.2637" y="418.3654">Holds user and grants</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="41.9174" x="530.2283" y="428.7457">information</text></g><!--MD5=[f9de1d0295f22cfe35a240a7883a3f8b]
+entity kafka_queue--><g id="elem_kafka_queue"><path d="M691.3654,264.2976 L776.8335,264.2976 C779.5554,264.2976 779.5554,292.2288 779.5554,292.2288 C779.5554,292.2288 779.5554,320.16 776.8335,320.16 L691.3654,320.16 C688.6435,320.16 688.6435,292.2288 688.6435,292.2288 C688.6435,292.2288 688.6435,264.2976 691.3654,264.2976 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;"/><path d="M776.8335,264.2976 C774.1115,264.2976 774.1115,292.2288 774.1115,292.2288 C774.1115,320.16 776.8335,320.16 776.8335,320.16 " fill="none" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="714.2295" y="274.0029">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="55.527" x="703.614" y="285.2281">Kafka Queue</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="17.4202" x="722.6674" y="294.7635">[JSON]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="730.2888" y="304.8248"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="80.0242" x="691.3654" y="315.205">Store event messages</text></g><!--MD5=[83bb000889dec5c32d93443fca192eba]
+entity notification--><g id="elem_notification"><rect fill="#438DD5" height="61.3062" rx="1.361" ry="1.361" style="stroke:#3C7FC0;stroke-width:0.27219111856860434;" width="106.6989" x="852.7748" y="261.5757"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="34.2961" x="888.9762" y="274.0029">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="85.7402" x="863.2541" y="285.2281">Notification Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="37.5624" x="887.343" y="294.7635">[Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="905.0355" y="304.8248"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="93.6337" x="860.3961" y="315.205">Handle notification events</text></g><!--MD5=[c2655ce3bf1e7fc41951504c61ef49ec]
+entity firebase--><g id="elem_firebase"><rect fill="#999999" height="62.789" rx="1.361" ry="1.361" style="stroke:#8A8A8A;stroke-width:0.27219111856860434;" width="117.0422" x="831.8161" y="364.1917"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="53.3495" x="863.6624" y="376.6189">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="87.3733" x="846.6505" y="387.8441">FireBase Messaging</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="889.2484" y="398.5434"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="101.7995" x="839.4374" y="408.9236">Send Message to subscribed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="22.8641" x="878.9051" y="419.3038">clients</text></g><!--MD5=[0f5dabbd2d96f4a4249fed288ff339c2]
+entity p_ada--><g id="elem_p_ada"><rect fill="#08427B" height="52.4088" rx="1.361" ry="1.361" style="stroke:#073B6F;stroke-width:0.27219111856860434;" width="89.8231" x="3.8107" y="115.9534"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="26.6747" x="35.3848" y="128.3806">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.7101" font-weight="bold" lengthAdjust="spacing" textLength="16.6037" x="40.4204" y="139.6058">AdA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="2.1775" x="47.6334" y="150.3051"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.6214" lengthAdjust="spacing" textLength="76.7579" x="11.432" y="160.6853">Optional Descritption</text></g><!--MD5=[d01621dd99bd49ff05ec2352b7f831a0]
+link p_ada to singlepageapp--><g id="link_p_ada_singlepageapp"><path d="M93.7807,142.0838 C111.6909,142.0838 132.5571,142.0838 151.7357,142.0838 " fill="none" id="p_ada-to-singlepageapp" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="154.5501,142.0838,149.6507,139.9062,151.8282,142.0838,149.6507,144.2613,154.5501,142.0838" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="54.5913" x="96.9" y="138.217">Visits web page</text></g><!--MD5=[2f939794c0bc1099319347ed55e29b07]
+link singlepageapp to apigw--><g id="link_singlepageapp_apigw"><path d="M269.6706,142.0838 C290.466,142.0838 314.016,142.0838 335.1271,142.0838 " fill="none" id="singlepageapp-to-apigw" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="337.9579,142.0838,333.0585,139.9062,335.236,142.0838,333.0585,144.2613,337.9579,142.0838" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="62.1106" x="272.7355" y="128.9625">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="37.5624" x="285.0096" y="138.0195">[JSON/HTTPS]</text></g><!--MD5=[659301c0746298310284c5a3d8809ac1]
+link apigw to auth--><g id="link_apigw_auth"><path d="M408.2105,178.1545 C412.4294,191.0509 416.1802,202.5102 416.1802,202.5102 C416.1802,202.5102 458.0813,230.2192 495.1973,254.7654 " fill="none" id="apigw-to-auth" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="497.6361,256.3768,494.7495,251.8587,495.3654,254.876,492.3481,255.4919,497.6361,256.3768" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="62.1106" x="416.7246" y="190.7499">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="37.5624" x="428.9987" y="199.8068">[JSON/HTTPS]</text></g><!--MD5=[eb0671f0a30c2df28aeb6097d2fc35ba]
+link auth to db_auth--><g id="link_auth_db_auth"><path d="M551.187,328.2897 C551.187,336.6188 551.187,345.563 551.187,354.1098 " fill="none" id="auth-to-db_auth" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="551.187,356.9895,553.3645,352.0901,551.187,354.2676,549.0095,352.0901,551.187,356.9895" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="78.0168" x="551.7314" y="340.7272">Reads from and writes</text><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="6.9749" x="588.0689" y="350.3661">to</text></g><!--MD5=[7f448fb20393c0f5fc19a924df172786]
+link auth to kafka_queue--><g id="link_auth_kafka_queue"><path d="M607.5578,292.3333 C632.6266,292.3333 661.8381,292.3333 685.8726,292.3333 " fill="none" id="auth-to-kafka_queue" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="688.6272,292.3333,683.7278,290.1557,685.9053,292.3333,683.7278,294.5108,688.6272,292.3333" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="74.7505" x="610.7969" y="288.4665">Async communication</text></g><!--MD5=[c36c5d0b14633f42a5eacf65e17ca00d]
+reverse link kafka_queue to notification--><g id="link_kafka_queue_notification"><path d="M782.6583,292.3333 C804.4663,292.3333 830.2646,292.3333 852.6278,292.3333 " fill="none" id="kafka_queue-backto-notification" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="779.7459,292.3333,784.6453,294.5108,782.4678,292.3333,784.6453,290.1557,779.7459,292.3333" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="65.5981" x="782.6856" y="278.6676">Listen and process</text><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="54.3702" x="789.1161" y="288.3065">messages from</text></g><!--MD5=[9b1684efdab57c1e380d9295b6ae4c90]
+link notification to firebase--><g id="link_notification_firebase"><path d="M901.4317,323.227 C899.5699,335.2469 897.425,349.1069 895.5251,361.4208 " fill="none" id="notification-to-firebase" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="895.095,364.1863,898.002,359.6812,895.5148,361.4969,893.6991,359.0097,895.095,364.1863" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="68.2179" x="900.136" y="340.9994">Send Notification to</text><text fill="#666666" font-family="sans-serif" font-size="6.5326" font-style="italic" lengthAdjust="spacing" textLength="37.5624" x="915.4638" y="350.0563">[JSON/HTTPS]</text></g><!--MD5=[77a9378fe92045d7cefbed9f59050d63]
+reverse link docker to ada--><g id="link_docker_ada"><path d="M742.8041,159.798 C764.6828,177.4904 795.6146,202.5102 795.6146,202.5102 C795.6146,202.5102 964.9175,206.8653 964.9175,206.8653 C964.9175,206.8653 965.0329,208.151 965.2354,210.4061 C965.3366,211.5337 965.4596,212.9036 965.6008,214.4763 C965.6184,214.6728 965.6363,214.8726 965.6545,215.0754 C965.6637,215.1769 965.6728,215.2791 965.6821,215.382 " fill="none" id="docker-backto-ada" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="740.4524,157.8926,742.8924,162.6668,742.5687,159.6044,745.6311,159.2807,740.4524,157.8926" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="39.7739" x="796.159" y="195.3772">pull images</text></g><!--MD5=[c98433b774592b3dee32634cb5aaf4b7]
+reverse link eureka to ada--><g id="link_eureka_ada"><path d="M830.1884,164.9315 C837.4613,181.9598 846.2422,202.5102 846.2422,202.5102 C846.2422,202.5102 964.9175,206.8653 964.9175,206.8653 C964.9175,206.8653 965.0329,208.151 965.2354,210.4061 C965.3366,211.5337 965.4596,212.9036 965.6008,214.4763 C965.6184,214.6728 965.6363,214.8726 965.6545,215.0754 C965.6637,215.1769 965.6728,215.2791 965.6821,215.382 " fill="none" id="eureka-backto-ada" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="829.0343,162.2368,828.9487,167.5977,830.0999,164.7414,832.9561,165.8926,829.0343,162.2368" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="78.1359" x="846.7866" y="190.4777">Microservices register</text><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="34.1089" x="869.6166" y="200.1166">as a client</text></g><!--MD5=[73ceaa475c0bc7ca568b1745bfbd9cbe]
+reverse link zipkin to ada--><g id="link_zipkin_ada"><path d="M917.3494,164.7246 C927.2735,181.7856 939.3316,202.5102 939.3316,202.5102 C939.3316,202.5102 964.9175,206.8653 964.9175,206.8653 C964.9175,206.8653 965.0329,208.151 965.2354,210.4061 C965.3366,211.5337 965.4596,212.9036 965.6008,214.4763 C965.6184,214.6728 965.6363,214.8726 965.6545,215.0754 C965.6637,215.1769 965.6728,215.2791 965.6821,215.382 " fill="none" id="zipkin-backto-ada" style="stroke:#666666;stroke-width:0.5443822371372087;"/><polygon fill="#666666" points="915.9013,162.2368,916.4869,167.5663,917.2719,164.5885,920.2496,165.3734,915.9013,162.2368" style="stroke:#666666;stroke-width:0.5443822371372087;"/><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="80.3134" x="939.8759" y="190.4777">Micrometer Distributed</text><text fill="#666666" font-family="sans-serif" font-size="7.077" font-weight="bold" lengthAdjust="spacing" textLength="26.5897" x="966.7378" y="200.1166">Tracing</text></g><rect height="7.4145" style="stroke:#00000000;stroke-width:0.5443822371372087;fill:none;" width="37.018" x="489.9525" y="493.2103"/><text fill="#888888" font-family="sans-serif" font-size="5.4438" lengthAdjust="spacing" textLength="37.018" x="489.9525" y="499.0297">AdA Container</text><!--MD5=[406339a4698b009a3da0d8876348c5f2]
+@startuml container
+
+footer AdA Container
+scale max 1024 width
+skinparam linetype polyline
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Context Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+
+' Container Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' Component Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+'left to right direction
+'LAYOUT_WITH_LEGEND()
+
+
+Person(p_ada, "AdA", "Optional Descritption")
+
+
+
+
+
+Container_Boundary(internet, "Internet") {
+Container(singlepageapp, "Single-Page Application", "Provides all the of the AdA functionality through web browser")
+
+Container_Boundary(dmz, "DMZ") {
+Container(apigw, "Api Gateway", "Spring Cloud", "Entry points of all clients. Handles and balance requests")
+
+Container_Boundary(p_net, "Private Network") {
+
+Container_Boundary(ada, "AdA Backend") {
+Container(auth, "Authorization Service", "Spring Boot", "Manage the authentication and authorization of users")
+ContainerDb(db_auth, "Database", "Postgres SQL", "Holds user and grants information")
+ContainerQueue(kafka_queue, "Kafka Queue", "JSON", "Store event messages")
+Container(notification, "Notification Service", "Spring Boot", "Handle notification events")
+System_Ext(firebase, "FireBase Messaging", "Send Message to subscribed clients")
+
+}
+
+Container_Ext(docker, "Private Docker Registry")
+Container_Ext(eureka, "Eureka Service", "Discovery Service")
+Container_Ext(zipkin, "Zipkin", "Distributed Tracing")
+}
+}
+
+}
+
+Rel_R(p_ada, singlepageapp, "Visits web page")
+Rel_R(singlepageapp, apigw, "Makes API calls to", "JSON/HTTPS")
+Rel_D(apigw, auth, "Makes API calls to", "JSON/HTTPS")
+Rel_D(auth, db_auth, "Reads from and writes to")
+Rel_R(auth, kafka_queue, "Async communication")
+Rel_L(notification, kafka_queue, "Listen and process messages from")
+Rel_D(notification, firebase, "Send Notification to", "JSON/HTTPS")
+
+Rel_U(ada, docker, "pull images")
+Rel_U(ada, eureka, "Microservices register as a client")
+Rel_U(ada, zipkin, "Micrometer Distributed Tracing")
+
+@enduml
+
+@startuml container
+
+footer AdA Container
+scale max 1024 width
+skinparam linetype polyline
+skinparam nodesep 10
+skinparam ranksep 10
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+
+
+
+
+
+
+rectangle "==AdA\n\n Optional Descritption" <<person>> as p_ada
+
+
+
+
+
+rectangle "==Internet\n<size:12>[Container]</size>" <<boundary>> as internet {
+rectangle "==Single-Page Application\n//<size:12>[Provides all the of the AdA functionality through web browser]</size>//" <<container>> as singlepageapp
+
+rectangle "==DMZ\n<size:12>[Container]</size>" <<boundary>> as dmz {
+rectangle "==Api Gateway\n//<size:12>[Spring Cloud]</size>//\n\n Entry points of all clients. Handles and balance requests" <<container>> as apigw
+
+rectangle "==Private Network\n<size:12>[Container]</size>" <<boundary>> as p_net {
+
+rectangle "==AdA Backend\n<size:12>[Container]</size>" <<boundary>> as ada {
+rectangle "==Authorization Service\n//<size:12>[Spring Boot]</size>//\n\n Manage the authentication and authorization of users" <<container>> as auth
+database "==Database\n//<size:12>[Postgres SQL]</size>//\n\n Holds user and grants information" <<container>> as db_auth
+queue "== Kafka Queue\n//<size:12>[JSON]</size>//\n\nStore event messages" <<container>> as kafka_queue 
+rectangle "==Notification Service\n//<size:12>[Spring Boot]</size>//\n\n Handle notification events" <<container>> as notification
+rectangle "==FireBase Messaging\n\n Send Message to subscribed clients" <<external_system>> as firebase
+
+}
+
+rectangle "== Private Docker Registry" <<external_container>> as docker 
+rectangle "== Eureka Service\n//<size:12>[Discovery Service]</size>//" <<external_container>> as eureka 
+rectangle "== Zipkin\n//<size:12>[Distributed Tracing]</size>//" <<external_container>> as zipkin 
+}
+}
+
+}
+
+p_ada -RIGHT-> singlepageapp : "===Visits web page"
+singlepageapp -RIGHT-> apigw : "===Makes API calls to\n//<size:12>[JSON/HTTPS]</size>//"
+apigw -DOWN-> auth : "===Makes API calls to\n//<size:12>[JSON/HTTPS]</size>//"
+auth -DOWN-> db_auth : "===Reads from and writes to"
+auth -RIGHT-> kafka_queue : "===Async communication"
+notification -LEFT-> kafka_queue : "===Listen and process messages from"
+notification -DOWN-> firebase : "===Send Notification to\n//<size:12>[JSON/HTTPS]</size>//"
+
+ada -UP-> docker : "===pull images"
+ada -UP-> eureka : "===Microservices register as a client"
+ada -UP-> zipkin : "===Micrometer Distributed Tracing"
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 12:55:52 CEST 2022)
+(LGPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
