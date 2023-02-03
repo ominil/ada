@@ -12,7 +12,14 @@ from the warehouse.
 Ada Application streamlines the logistic process and provides a centralized solution for 
 managing personnel and resources.
 
+## Project Goals
 
+ - [ ] Update and discover new feature of Spring Boot 3.x
+ - [ ] Learn Microservices patterns (Service discovery, Distributed Tracing, Circuit Breakers)
+ - [ ] Learn Kafka as Advanced Message Queue Protocol
+ - [ ] Learn Kubernetes
+ - [ ] Learn GitHub Actions (compile, test, quality gate, build, deploy)
+  
 ## Table of Contents
 
 - [Requirements](#requirements)
@@ -36,6 +43,7 @@ For building and running the application you need:
 
 - Docker
 - Jib (to create docker images with pom files)
+- clients module (`mvn clean install`)
 
 For other dependencies see parent pom.xml file and all modules pom files.
 
@@ -73,11 +81,10 @@ has its own README file with all the dependencies that it needs.
 [//]: # ( TODO Create Diagram)
 
 ### System Context
-
-[//]: # (![System Context]&#40;diagrams/output/AdA System Context.svg&#41;)
-<img src="diagrams/output/AdA System Context.svg"/>
+<img src="diagrams/output/AdA System Context.svg" alt="System Context Diagram"/>
 
 ### Container Diagram
+<img src="diagrams/output/container.svg" alt="container diagram"/>
 
 ## License
 

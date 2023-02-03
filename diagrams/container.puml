@@ -1,0 +1,66 @@
+@startuml container
+
+footer AdA Container
+scale max 1024 width
+skinparam linetype polyline
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Context Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+
+' Container Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' Component Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+'left to right direction
+'LAYOUT_WITH_LEGEND()
+
+
+Person(p_ada, "AdA", "Optional Descritption")
+
+
+
+
+
+Container_Boundary(internet, "Internet") {
+Container(singlepageapp, "Single-Page Application", "Provides all the of the AdA functionality through web browser")
+
+Container_Boundary(dmz, "DMZ") {
+Container(apigw, "Api Gateway", "Spring Cloud", "Entry points of all clients. Handles and balance requests")
+
+Container_Boundary(p_net, "Private Network") {
+
+Container_Boundary(ada, "AdA Backend") {
+Container(auth, "Authorization Service", "Spring Boot", "Manage the authentication and authorization of users")
+ContainerDb(db_auth, "Database", "Postgres SQL", "Holds user and grants information")
+ContainerQueue(kafka_queue, "Kafka Queue", "JSON", "Store event messages")
+Container(notification, "Notification Service", "Spring Boot", "Handle notification events")
+System_Ext(firebase, "FireBase Messaging", "Send Message to subscribed clients")
+
+}
+
+Container_Ext(docker, "Private Docker Registry")
+Container_Ext(eureka, "Eureka Service", "Discovery Service")
+Container_Ext(zipkin, "Zipkin", "Distributed Tracing")
+}
+}
+
+}
+
+Rel_R(p_ada, singlepageapp, "Visits web page")
+Rel_R(singlepageapp, apigw, "Makes API calls to", "JSON/HTTPS")
+Rel_D(apigw, auth, "Makes API calls to", "JSON/HTTPS")
+Rel_D(auth, db_auth, "Reads from and writes to")
+Rel_R(auth, kafka_queue, "Async communication")
+Rel_L(notification, kafka_queue, "Listen and process messages from")
+Rel_D(notification, firebase, "Send Notification to", "JSON/HTTPS")
+
+Rel_U(ada, docker, "pull images")
+Rel_U(ada, eureka, "Microservices register as a client")
+Rel_U(ada, zipkin, "Micrometer Distributed Tracing")
+
+@enduml
